@@ -1,0 +1,44 @@
+html {
+  font-size: 16px; }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 16px; } }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 15px; } }
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 14px; } }
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 13px; } }
+
+.container {
+  margin: 0 0 12.6rem 0;
+  padding: 0;
+  position: relative;
+  background: #2a323a; }
+  .container::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+            transform-origin: right bottom;
+    -webkit-transform: skewY(-6deg);
+        -ms-transform: skewY(-6deg);
+            transform: skewY(-6deg); }
+  .container .row_container {
+    text-align: center;
+    padding: 0 10px; }
+    .container .row_container img {
+      max-width: 100%;
+      height: auto; }
