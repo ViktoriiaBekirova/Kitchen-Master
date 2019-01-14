@@ -33,7 +33,7 @@
       position: relative
       +row-flex()
       justify-content: space-around
-      .row_row1
+      .row__row1
         +col()
         +size(3)
         +size-md(3)
@@ -47,49 +47,49 @@
             color: #f39c12
             font: bolder 24px/1 'ostrich_black'
             margin: 0 0 25px 0
-          .location
+          &__location
             margin: 0 0 25px 0
           span
             display: block
             padding: 0 0 10px 0
             text-transform: uppercase
-            .address_link
+            .address-link
               color: #2ecc71
               text-decoration: none
-          .social .social_item
+          .social .social-item
             display: inline-block
             width: 17px
             height: 17px
             padding: 0
-            .social_item-link1, .social_item-link2
+            .social-item__link1, .social-item__link2
               display: block
               width: 100%
               height: 100%
               margin: 0 7px 0 0
               background: url(../img/icon.png) no-repeat
-            .social_item-link1
+            .social-item__link1
               background-position: -27px 0
-            .social_item-link2
+            .social-item__link2
               background-position: -51px 0
-      .row_row2
+      .row__row2
         +col()
         +size(3)
         +size-md(3)
         +size-sm(10)
         +size-xs(10)
         +size-xxs(10)
-        .main_menu
+        .main-menu
           text-align: center
           border-left: 1px dotted #fff
           border-right: 1px dotted #fff
-          .main_menu-link
+          .main-menu__link
             display: block
             color: #fff
             font: bold 14px/2 'proxima'
             text-transform: uppercase
             vertical-align: middle
             text-decoration: none
-      .row_row3
+      .row__row3
         +col()
         +size(5)
         +size-md(5)
@@ -141,7 +141,7 @@
       position: relative
 
 @media screen and (max-width: 720px)
-  .contacts .container .row .row_row2 .main_menu
+  .contacts .container .row .row__row2 .main-menu
     display: flex
     justify-content: space-between
     margin: 50px 0
@@ -149,7 +149,7 @@
     border: none
     border-top: 1px dotted #fff
     border-bottom: 1px dotted #fff
-  .contacts .container .row .row_row2 .main_menu .main_menu-link
+  .contacts .container .row .row__row2 .main-menu .main-menu__link
     display: inline-block
     color: #fff
     font: bold 14px/2 'proxima'

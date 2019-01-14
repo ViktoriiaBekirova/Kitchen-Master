@@ -9,7 +9,7 @@
     max-width: 960px
     margin: 0 auto
 
-    &_menu
+    &__menu
       text-align: justify
       width: 83.33333%
       margin-left: auto
@@ -37,7 +37,7 @@
           vertical-align: middle
           text-decoration: none
 
-    &_toggle // уменьшенное меню
+    &__toggle // уменьшенное меню
       display: none
       width: 83.33333%
       margin-left: auto
@@ -67,7 +67,7 @@
           vertical-align: middle
           text-decoration: none
 
-      .menu_toggle // menu-разворот
+      .menu-toggle // menu-разворот
         display: block
         position: relative
         float: right
@@ -92,10 +92,10 @@
 
 
 @media screen and (max-width: 720px)
-  .row_toggle.clearfix
+  .row__toggle.clearfix
     display: block
 
-  .header .row_menu
+  .header .row__menu
     display: none
     position: absolute
     z-index: 1
@@ -104,22 +104,22 @@
     padding-left: 5%
     background: #2a323a
 
-  .header .row_menu li
+  .header .row__menu li
     display: block
     .nav-link
       font-size: 25px
       padding: 20px 0
       border-bottom: 2px dotted #fff
 
-  .header .row_menu h1
+  .header .row__menu h1
     display: none
 
 @media screen and (max-width: 500px)
-  .header .row_toggle .kit-mas .caption
+  .header .row__toggle .kit-mas .caption
     font: bolder 1.8rem "novecento"
 
 @media screen and (max-width: 350px)
-  .header .row_toggle .kit-mas .caption
+  .header .row__toggle .kit-mas .caption
     font: bolder 1.6rem "novecento"
 
 

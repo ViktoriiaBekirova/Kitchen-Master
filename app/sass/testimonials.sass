@@ -21,7 +21,7 @@
     max-width: 960px
     padding: 0 20px
     background: #fff
-    .container_header
+    &__header
       font: 300 30px/1 'ostrich_black'
       text-align: center
       text-transform: uppercase
@@ -30,7 +30,7 @@
       position: relative
       +row-flex()
       justify-content: space-between
-      .row_row1
+      .row__row1
         +col()
         +size(5)
         +size-md(5)
@@ -39,7 +39,7 @@
         +size-xxs(12)
 
 
-      .row_row2
+      .row__row2
         +col()
         +size(5)
         +size-md(5)
@@ -54,7 +54,7 @@
       .testimonial
         width: 100%
         margin: 80px 0 0 0
-        .testimonial_text
+        &__text
           position: relative
           color: #2a323a
           font: 500 16px/1 'proxima'
@@ -74,28 +74,28 @@
             transform: skewY(39deg)
             transform-origin: 100% 50%
             background: #fff
-        .testimonial_content
+        &__content
           text-align: right
           padding: 13px 0 0 0
-          .testimonial_pic
-            width: 46px
-            height: 46px
-            display: inline-block
-            vertical-align: middle
-            border-radius: 50%
-            margin: 0 10px 0 0
-            overflow: hidden
-            img
-              max-width: 100%
-              height: auto
-        .testimonial_title
+        &__pic
+          width: 46px
+          height: 46px
+          display: inline-block
+          vertical-align: middle
+          border-radius: 50%
+          margin: 0 10px 0 0
+          overflow: hidden
+          img
+             max-width: 100%
+             height: auto
+        &__title
           display: inline-block
           vertical-align: middle
           text-align: left
-          .testimonial__header
-            font: bold 16px/1 'proxima'
-            color: #2a323a
-            small
-              display: block
-              color: #a1a1a1
-              font: 300 14px/1 'proxima'
+        &__header
+          font: bold 16px/1 'proxima'
+          color: #2a323a
+          small
+            display: block
+            color: #a1a1a1
+            font: 300 14px/1 'proxima'

@@ -54,7 +54,7 @@ html {
         text-transform: uppercase;
         text-align: center;
         margin: 33px 0 0 0; }
-    .registration .textBox .btn__register {
+    .registration .textBox .btn-register {
       width: 215px;
       height: 55px;
       background: transparent;

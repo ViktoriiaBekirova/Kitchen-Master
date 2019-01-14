@@ -36,9 +36,9 @@ html {
     -webkit-transform: skewY(-6deg);
         -ms-transform: skewY(-6deg);
             transform: skewY(-6deg); }
-  .container .row_container {
+  .container .row-container {
     text-align: center;
     padding: 0 10px; }
-    .container .row_container img {
+    .container .row-container img {
       max-width: 100%;
       height: auto; }
